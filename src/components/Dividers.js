@@ -50,6 +50,15 @@ export default function InsetDividers() {
         </ListItemAvatar>
         <ListItemText primary="EMAIL" secondary="Jirawatk1999@hotmail.com" />
       </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem>
+        <ListItemAvatar>
+          <Avatar>
+            <BeachAccessIcon />
+          </Avatar>
+        </ListItemAvatar>
+        <ListItemText primary="DATE OF BIRTH" secondary="01 Aug 1999" />
+      </ListItem>
     </List>
   );
 }
